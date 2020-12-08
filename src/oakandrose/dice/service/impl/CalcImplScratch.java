@@ -1,5 +1,7 @@
 package oakandrose.dice.service.impl;
 
+import oakandrose.dice.api.ResponceDto;
+
 public class CalcImplScratch {
 
 	public static void run(int attempts, int dicePoolToHit, int dicePoolToDamage) {
@@ -78,6 +80,8 @@ public class CalcImplScratch {
 			double chances = (int) (chance * 10000) * 0.01; // вероятность с точностью до сотых, остальное отбрасывается
 			System.out.println(chances);
 		}
+		
+		
 
 	}
 
