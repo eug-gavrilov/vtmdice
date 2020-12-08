@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import oakandrose.dice.api.ResponceDto;
 import oakandrose.dice.service.interfaces.IVtimDiceManagement;
 
-@Service
+@Service	
 public class CalcImpl implements IVtimDiceManagement {
 
 	int ATTEMPTS = 1000000;
